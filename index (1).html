@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev Portfolio — WorldSkills Module</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo">PORTFOLIO</div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link">Home</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#services" class="nav__link">Services</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero__container">
+                <h1 class="hero__title">Creative Web Solutions</h1>
+                <p class="hero__subtitle">Professional frontend development based on WorldSkills standards.</p>
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container about__container">
+                <div class="about__content">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="about__text">
+                        We are a team of dedicated developers focusing on clean code and exceptional user experiences. Our methodology follows the BEM naming convention to ensure scalability and maintainability. Every project we undertake is built with precision, utilizing the latest HTML5 and CSS3 features to provide robust and responsive layouts for all modern devices and screen sizes.
+                    </p>
+                </div>
+                <div class="about__image">
+                    <div class="image-placeholder">Image</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="services__grid">
+                    <article class="card">
+                        <div class="card__icon">🌐</div>
+                        <h3 class="card__title">Web Design</h3>
+                        <p class="card__desc">Creating visually stunning and user-friendly interface designs.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card__icon">💻</div>
+                        <h3 class="card__title">Development</h3>
+                        <p class="card__desc">Responsive and fast-loading websites built with semantic HTML.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card__icon">📱</div>
+                        <h3 class="card__title">Mobile First</h3>
+                        <p class="card__desc">Optimizing your web presence for mobile users worldwide.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="contact__wrapper">
+                    <div class="contact__info">
+                        <p><strong>Email:</strong> info@worldskills.com</p>
+                        <p><strong>Phone:</strong> +7 (999) 000-00-00</p>
+                    </div>
+                    <form class="form">
+                        <input type="text" class="form__input" placeholder="Name" required>
+                        <input type="email" class="form__input" placeholder="Email" required>
+                        <textarea class="form__textarea" placeholder="Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <p>&copy; 2026 WorldSkills WebDev. All rights reserved.</p>
+            <div class="footer__socials">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
